@@ -362,7 +362,7 @@ justify-content: space-between;
     width: 800px;
     height: 400px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     transition: all .3s ease-in-out;
     
@@ -411,21 +411,27 @@ justify-content: space-between;
                     transition: all .3s ease-in-out;
     
                     }
-     .card-6{
+    .card-6{
                         background: url( image/3006.JPG) center center no-repeat;
                         background-size: cover;
                         filter: grayscale(1);
                         transition: all .3s ease-in-out;
         
                         }
-      .card-7{
+    .card-7{
                             background: url( image/305.JPG) center center no-repeat;
                             background-size: cover;
                             filter: grayscale(1);
                             transition: all .3s ease-in-out;
             
                             }
-    
+    .card-8{
+                            background: url( image/320.png) center center no-repeat;
+                            background-size: cover;
+                            filter: grayscale(1);
+                            transition: all .3s ease-in-out;
+            
+                            }      
     .card:nth-child(odd){
     
         transform: translateY(10px);
@@ -456,27 +462,30 @@ justify-content: space-between;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
     }
     .conttt:has(.card-1:hover){
-        grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .conttt:has(.card-2:hover){
-        grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .conttt:has(.card-3:hover){
-        grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
     }
     .conttt:has(.card-4:hover){
-        grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr 1fr;
     }
     .conttt:has(.card-5:hover){
-        grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
     }
     .conttt:has(.card-6:hover){
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr 1fr 1fr;
     }
     .conttt:has(.card-7:hover){
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
     }
-    .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover , .card-6:hover , .card-7:hover{
+    .conttt:has(.card-8:hover){
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    }
+    .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover , .card-6:hover , .card-7:hover , .card-8:hover{
     box-shadow: rgba(0,0,0,0.7) 0px -50px 80px inset;
     filter: grayscale(0);
     }
