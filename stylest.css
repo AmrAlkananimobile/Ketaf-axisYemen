@@ -340,7 +340,7 @@ width: 400px;
 
 
 #ofers{
-    height: 100vh;
+    height: 105vh;
     display: flex;
     justify-content: center;
     background:url('./image/bg1.jpg') center center/cover fixed;
