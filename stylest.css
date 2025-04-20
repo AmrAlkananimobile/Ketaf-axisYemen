@@ -309,7 +309,7 @@ color: #41419f;
     transition: transform 0.3s ease;
   }
   .about-box:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
   }
 #abute .about-cont img{
 width: 400px;
